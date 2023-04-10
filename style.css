@@ -338,7 +338,77 @@ span{
   font-family:'Times New Roman', Times, serif;
   padding: 2px;
 }
+div.links{
+  background-color: transparent;
+}
+/* ///////////////////////// lader in humberger start */
 
+
+.loader {
+  position: relative;
+  width: 694px;
+  height: 24px;
+  left: 15px;
+}
+
+.loader div {
+  position: absolute;
+  border: 4px solid rgb(18, 220, 163);
+  border-radius: 50%;
+  -webkit-animation: loader8435 1s ease-out infinite;
+          animation: loader8435 1s ease-out infinite;
+}
+
+.loader div:nth-child(2) {
+  -webkit-animation-delay: -0.5s;
+          animation-delay: -0.5s;
+}
+
+@-webkit-keyframes loader8435 {
+  0% {
+    top: 32px;
+    left: 32px;
+    width: 0;
+    height: 0;
+    opacity: 01;
+  }
+
+  100% {
+    top: 0;
+    left: 0;
+    width: 64px;
+    height: 64px;
+    opacity: 0;
+  }
+}
+
+@keyframes loader8435 {
+  0% {
+    top: 32px;
+    left: 32px;
+    width: 0;
+    height: 0;
+    opacity: 1;
+  }
+
+  100% {
+    top: 0;
+    left: 0;
+    width: 64px;
+    height: 64px;
+    opacity: 0;
+  }
+  
+}
+.Loader-coment{
+  color: #1bd9d3;
+  
+}
+
+
+
+
+/* ///////////////////////// lader in humberger end */
 
 @keyframes appear {
   0% {
@@ -421,6 +491,7 @@ span{
 
   .big-title {
     font-size: 1.1rem;
+    color: #551a8b;
   }
 
   .text {
