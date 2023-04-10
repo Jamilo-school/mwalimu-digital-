@@ -522,7 +522,7 @@ div.links{
   }
   div.cards img{
     height: 200px;
-    width: 340px;
+    width:300px;
     border: solid var(--hoverColor);
     border-radius: 10px;
     border-style: dotted;
