@@ -291,7 +291,7 @@ div.card-2{
   max-width: 90vh;
   border: solid var(--hoverColor);
   border-radius: 10px;
-  margin: 15px;
+  margin: 1px;
   float: right;
   
 }
@@ -326,7 +326,7 @@ span{
 }
 .circle{
   border: solid var(--hoverColor);
-  margin: 13px;
+  margin: 7px;
   border-radius: 6px;
   border-style: dashed;
   padding: 7px;
@@ -516,13 +516,13 @@ div.links{
     max-width: 100vh;
     border: solid var(--hoverColor);
     border-radius: 10px;
-    margin: 1px;
+    margin: 9px;
     float: left;
     
   }
   div.cards img{
     height: 200px;
-    width: 290px;
+    width: 340px;
     border: solid var(--hoverColor);
     border-radius: 10px;
     border-style: dotted;
